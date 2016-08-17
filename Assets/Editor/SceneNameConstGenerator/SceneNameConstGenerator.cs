@@ -59,9 +59,13 @@ public class SceneNameConstGenerator
         var sb = new StringBuilder();
 
         // ヘッダーを記載する
+        sb.AppendLine("//--------------------------------------------------------");
         sb.AppendLine("// このファイルは SceneNameConstGenerator によって生成されます");
         sb.AppendLine("// 直接編集しないでください");
         sb.AppendLine("// Tools/SceneNameConstGenerator");
+        sb.AppendLine("// ");
+        sb.AppendFormat("// Created Date : {0}", DateTime.Now.ToString()).AppendLine();
+        sb.AppendLine("//--------------------------------------------------------");
         sb.AppendLine();
 
         // クラス名の書き出し
