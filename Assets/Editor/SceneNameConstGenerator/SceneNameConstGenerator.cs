@@ -19,12 +19,10 @@ public class SceneNameConstGenerator
     static List<string> SceneNames()
     {
         List<string> res = new List<string>();
-
-        var guids = AssetDatabase.FindAssets("t:Scene");
-        foreach (var guid in guids)
+        
+        foreach (var scene in EditorBuildSettings.scenes)
         {
-            var path = AssetDatabase.GUIDToAssetPath(guid);
-            res.Add(Path.GetFileNameWithoutExtension(path));
+            res.Add(Path.GetFileNameWithoutExtension(scene.path));
         }
         res.Sort();
         return res;
