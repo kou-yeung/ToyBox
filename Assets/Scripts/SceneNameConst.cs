@@ -1,9 +1,9 @@
 //--------------------------------------------------------
-// このファイルは SceneNameConstGenerator によって生成されます
+// このファイルは自動生成されます
 // 直接編集しないでください
 // Tools/SceneNameConstGenerator
 // 
-// Created Date : 8/17/2016 3:33:43 PM
+// Created Date : 8/17/2016 4:31:18 PM
 //--------------------------------------------------------
 
 public class SceneNameConst
