@@ -60,7 +60,7 @@ public class SceneNameConstGenerator
 
         // ヘッダーを記載する
         sb.AppendLine("//--------------------------------------------------------");
-        sb.AppendLine("// このファイルは SceneNameConstGenerator によって生成されます");
+        sb.AppendLine("// このファイルは自動生成されます");
         sb.AppendLine("// 直接編集しないでください");
         sb.AppendLine("// Tools/SceneNameConstGenerator");
         sb.AppendLine("// ");
